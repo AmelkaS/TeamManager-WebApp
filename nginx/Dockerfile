@@ -8,3 +8,4 @@ COPY config/default.conf /etc/nginx/conf.d/
 
 # Copy your HTML file into the Nginx web directory
 COPY ui_app/* /usr/share/nginx/html/
+

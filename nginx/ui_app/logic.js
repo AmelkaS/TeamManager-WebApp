@@ -108,6 +108,5 @@ function checkPrivacyPolicy(){
 
 document.querySelector('input[name="privacy_policy"]').addEventListener('change', checkPrivacyPolicy);
 
-
 checkPrivacyPolicy();
 fetchItems();
