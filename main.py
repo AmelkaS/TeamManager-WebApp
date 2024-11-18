@@ -2,7 +2,6 @@ import json
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from typing import Type
 
-
 # Define the request handler class by extending BaseHTTPRequestHandler.
 # This class will handle HTTP requests that the server receives.
 class SimpleRequestHandler(BaseHTTPRequestHandler):
