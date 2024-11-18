@@ -1,0 +1,146 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f5;
+    font-family: Arial, sans-serif;
+}
+
+.my_fancy_box {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 340px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+    font-size: 22px;
+    font-weight: bold;
+    color: #212121;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.user_interaction {
+    width: 100%;
+}
+
+.user_interaction_text {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555555;
+    font-size: 14px;
+}
+
+.input_box {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #d1d1d1;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #555;
+    transition: border-color 0.2s ease;
+    box-sizing: border-box;
+}
+
+.input_box:focus {
+    border-color: #6c63ff;
+    outline: none;
+}
+
+.checkbox_label {
+    font-size: 13px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    color: #555555;
+}
+
+.checkbox_label input {
+    margin-right: 8px;
+}
+
+.checkbox_label a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+.checkbox_label a:hover {
+    text-decoration: underline;
+}
+
+.submit_button {
+    padding: 12px 0;
+    width: 100%;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: not-allowed;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.submit_button.active {
+    background-color: #6c63ff;
+    cursor: pointer;
+}
+
+.submit_button:hover:enabled {
+    background-color: #574dcf;
+}
+
+.user-list {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.user-list-header {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+}
+
+.user-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #fafafa;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.user-list li button {
+    background: none;
+    border: none;
+    color: #6c63ff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.user-list li button:hover {
+    color: #574dcf;
+}
